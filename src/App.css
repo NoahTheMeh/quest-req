@@ -1,0 +1,430 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #E3DBC8;
+}
+
+.app-container {
+  color: #333;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    /* Stack children vertically on smaller screens */
+  }
+
+}
+
+.force-graph-container {
+  flex-grow: 1;
+  /* Allow the graph to fill available space */
+  min-width: 300px;
+  /* Minimum width to ensure the graph is usable */
+  width: 70vw;
+}
+
+.graph-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  padding-left: 20px;
+  list-style-position: inside;
+  /* Moves bullet points inside the content flow */
+}
+
+.side-by-side-container {
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.completed-quest {
+  color: green;
+  list-style-type: disc;
+}
+
+.in-progress-quest {
+  color: orange;
+  list-style-type: circle;
+  /* circle for in-progress quests */
+}
+
+.not-started-quest {
+  color: red;
+  list-style-type: square;
+  /* square for not-started quests */
+}
+
+
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Styles for quest buttons */
+.quest-button {
+  padding: 5px 10px;
+  border: rgb(0, 0, 0) 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  margin: 1px;
+}
+
+
+/* Completed quests */
+.completed-quest {
+  color: #4CAF50;
+  /* Green */
+}
+
+/* In-progress quests */
+.in-progress-quest {
+  color: #ff9800;
+  /* Orange */
+}
+
+/* Not-started quests */
+.not-started-quest {
+  color: #f44336;
+  /* Red */
+}
+
+.gray-quest {
+  color: #757575;
+  /* Gray */
+}
+
+.black-quest {
+  color: #000000;
+  /* Black */
+}
+
+.sidebar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.sidebar button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.App {
+  display: flex;
+  /* Using flexbox for layout */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  /* Align children horizontally */
+  justify-content: space-between;
+  /* Add space between the graph and the banner */
+  align-items: stretch;
+  /* Align items vertically */
+  height: 100vh;
+  /* Full height of the viewport */
+}
+
+.node-info-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  max-height: 90%;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 100;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Georgia', serif;
+  background: #D8CCB4;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  min-width: 400px;
+  width: 30vw;
+  font-family: 'Georgia', serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  position: relative;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.close-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  font-size: 24px;
+  color: #999;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.popup-content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-content textarea {
+  resize: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.popup-content button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popup-content button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 2;
+  max-width: 100px;
+}
+
+:root {
+  --completed-quest-color: green;
+  --in-progress-quest-color: orange;
+  --not-started-quest-color: red;
+  --gray-quest-color: #757575;
+  --black-quest-color: #000000;
+}
+
+.completed-quest {
+  color: var(--completed-quest-color);
+}
+
+.in-progress-quest {
+  color: var(--in-progress-quest-color);
+}
+
+.not-started-quest {
+  color: var(--not-started-quest-color);
+}
+
+.gray-quest {
+  color: var(--gray-quest-color);
+}
+
+.black-quest {
+  color: var(--black-quest-color);
+}
+
+
+.top-left-controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-left-controls div {
+  margin-bottom: 10px;
+}
+
+.top-left-controls label {
+  display: flex;
+  align-items: center;
+}
+
+.top-left-controls input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.top-left-controls button {
+  background-color: #f4e4bc;
+  color: #000000;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.QuestGraph {
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7d8487;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.box-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #B8A282;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.graph-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #E3DBC8;
+}
+
+.username-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.username-input-container label {
+  margin-right: 10px;
+}
+
+.username-input-container input {
+  padding: 5px;
+  font-size: 16px;
+}
