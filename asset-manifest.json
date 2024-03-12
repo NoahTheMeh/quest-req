@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/quest-req/static/css/main.64bea9d2.css",
+    "main.js": "/quest-req/static/js/main.608ebc49.js",
+    "static/js/787.74d477d5.chunk.js": "/quest-req/static/js/787.74d477d5.chunk.js",
+    "index.html": "/quest-req/index.html",
+    "main.64bea9d2.css.map": "/quest-req/static/css/main.64bea9d2.css.map",
+    "main.608ebc49.js.map": "/quest-req/static/js/main.608ebc49.js.map",
+    "787.74d477d5.chunk.js.map": "/quest-req/static/js/787.74d477d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64bea9d2.css",
+    "static/js/main.608ebc49.js"
+  ]
+}
