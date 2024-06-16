@@ -1761,5 +1761,28 @@
         },
         "Quests": [],
         "QuestPoints": 1.0
+    },
+    "While Guthix Sleeps": {
+        "Skills": {
+            "Thieving": 72,
+            "Magic": 67,
+            "Agility": 66,
+            "Farming": 65,
+            "Herblore": 65,
+            "Hunter": 62,
+            "Defence": 40
+        },
+        "Quests": [
+            "Defender of Varrock",
+            "The Path of Glouphrie",
+            "Fight Arena",
+            "Dream Mentor",
+            "The Hand in the Sand",
+            "Wanted!",
+            "Temple of the Eye",
+            "Tears of Guthix",
+            "Nature Spirit"
+        ],
+        "QuestPoints": 5.0
     }
 }
