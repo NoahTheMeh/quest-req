@@ -1,1 +1,1765 @@
-{"Alfred Grimhand's Barcrawl": {"Skills": {}, "Quests": [], "QuestPoints": 0}, "Enter the Abyss": {"Skills": {}, "Quests": ["Rune Mysteries"], "QuestPoints": 0}, "The General's Shadow": {"Skills": {}, "Quests": ["Fight Arena", "Curse of the Empty Lord"], "QuestPoints": 0}, "Barbarian Training": {"Skills": {"Fishing": "55", "Firemaking": "35", "Strength": "35", "Agility": "15", "Farming": "15", "Crafting": "11", "Smithing": "5", "Herblore": "4"}, "Quests": ["Tai Bwo Wannai Trio"], "QuestPoints": 0}, "Skippy and the Mogres": {"Skills": {"Cooking": "20"}, "Quests": [], "QuestPoints": 0}, "Curse of the Empty Lord": {"Skills": {"Thieving": "53", "Prayer": "31"}, "Quests": ["Desert Treasure I", "The Restless Ghost"], "QuestPoints": 0}, "Lair of Tarn Razorlor": {"Skills": {"Slayer": "40"}, "Quests": ["Haunted Mine"], "QuestPoints": 0}, "Bear Your Soul": {"Skills": {}, "Quests": [], "QuestPoints": 0}, "The Enchanted Key": {"Skills": {}, "Quests": ["Making History"], "QuestPoints": 0}, "Mage Arena I": {"Skills": {"Magic": "60"}, "Quests": [], "QuestPoints": 0}, "Family Pest": {"Skills": {}, "Quests": ["Family Crest"], "QuestPoints": 0}, "Mage Arena II": {"Skills": {"Magic": "75"}, "Quests": ["Mage Arena I"], "QuestPoints": 0}, "In Search of Knowledge": {"Skills": {}, "Quests": [], "QuestPoints": 0}, "Daddy's Home": {"Skills": {}, "Quests": [], "QuestPoints": 0}, "The Frozen Door": {"Skills": {"Agility": "70", "Hitpoints": "70", "Ranged": "70", "Strength": "70"}, "Quests": ["Desert Treasure I"], "QuestPoints": 0}, "Hopespear's Will": {"Skills": {"Prayer": "50"}, "Quests": ["Desert Treasure I", "Fairytale II - Cure a Queen", "Land of the Goblins"], "QuestPoints": 0}, "Into the Tombs": {"Skills": {}, "Quests": ["Beneath Cursed Sands"], "QuestPoints": 0}, "His Faithful Servants": {"Skills": {}, "Quests": ["Priest in Peril"], "QuestPoints": 0}, "Druidic Ritual": {"Skills": {}, "Quests": [], "QuestPoints": 4.0}, "Lost City": {"Skills": {"Crafting": "31", "Woodcutting": "36"}, "Quests": [], "QuestPoints": 3.0}, "Witch's House": {"Skills": {}, "Quests": [], "QuestPoints": 4.0}, "Merlin's Crystal": {"Skills": {}, "Quests": [], "QuestPoints": 6.0}, "Heroes' Quest": {"Skills": {"Quest points": "55", "Cooking": "53", "Fishing": "53", "Herblore": "25", "Mining": "50"}, "Quests": ["Dragon Slayer I", "Lost City", "Shield of Arrav", "Merlin's Crystal"], "QuestPoints": 1.0}, "Scorpion Catcher": {"Skills": {"Prayer": "31"}, "Quests": ["Alfred Grimhand's Barcrawl"], "QuestPoints": 1.0}, "Family Crest": {"Skills": {"Mining": "40", "Smithing": "40", "Magic": "59", "Crafting": "40"}, "Quests": [], "QuestPoints": 1.0}, "Fishing Contest": {"Skills": {"Fishing": "10"}, "Quests": [], "QuestPoints": 1.0}, "Tribal Totem": {"Skills": {"Thieving": "21"}, "Quests": [], "QuestPoints": 1.0}, "Monk's Friend": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Temple of Ikov": {"Skills": {"Thieving": "42", "Ranged": "40"}, "Quests": [], "QuestPoints": 1.0}, "Clock Tower": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Holy Grail": {"Skills": {"Attack": "20"}, "Quests": ["Merlin's Crystal"], "QuestPoints": 2.0}, "Tree Gnome Village": {"Skills": {}, "Quests": [], "QuestPoints": 2.0}, "Fight Arena": {"Skills": {}, "Quests": [], "QuestPoints": 2.0}, "Hazeel Cult": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Sheep Herder": {"Skills": {}, "Quests": [], "QuestPoints": 4.0}, "Plague City": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Sea Slug": {"Skills": {"Firemaking": "30"}, "Quests": [], "QuestPoints": 1.0}, "Waterfall Quest": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Jungle Potion": {"Skills": {"Herblore": "3"}, "Quests": ["Druidic Ritual"], "QuestPoints": 1.0}, "The Grand Tree": {"Skills": {"Agility": "25"}, "Quests": [], "QuestPoints": 5.0}, "Underground Pass": {"Skills": {"Ranged": "25"}, "Quests": ["Biohazard"], "QuestPoints": 5.0}, "Observatory Quest": {"Skills": {}, "Quests": [], "QuestPoints": 2.0}, "The Tourist Trap": {"Skills": {"Fletching": "10", "Smithing": "20"}, "Quests": [], "QuestPoints": 2.0}, "Watchtower": {"Skills": {"Magic": "14", "Thieving": "15", "Agility": "25", "Herblore": "14", "Mining": "40"}, "Quests": [], "QuestPoints": 4.0}, "Dwarf Cannon": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Murder Mystery": {"Skills": {}, "Quests": [], "QuestPoints": 3.0}, "The Dig Site": {"Skills": {"Agility": "10", "Herblore": "10", "Thieving": "25"}, "Quests": [], "QuestPoints": 2.0}, "Gertrude's Cat": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Legends' Quest": {"Skills": {"Quest points": "107", "Agility": "50", "Crafting": "50", "Herblore": "45", "Magic": "56", "Mining": "52", "Prayer": "42", "Smithing": "50", "Strength": "50", "Thieving": "50", "Woodcutting": "50"}, "Quests": ["Shilo Village", "Family Crest", "Heroes' Quest", "Waterfall Quest", "Underground Pass"], "QuestPoints": 4.0}, "Death Plateau": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Eadgar's Ruse": {"Skills": {"Herblore": "31"}, "Quests": ["Druidic Ritual", "Troll Stronghold"], "QuestPoints": 1.0}, "Big Chompy Bird Hunting": {"Skills": {"Fletching": "5", "Cooking": "30", "Ranged": "30"}, "Quests": [], "QuestPoints": 2.0}, "Elemental Workshop I": {"Skills": {"Mining": "20", "Smithing": "20", "Crafting": "20"}, "Quests": [], "QuestPoints": 1.0}, "Nature Spirit": {"Skills": {}, "Quests": ["Priest in Peril", "The Restless Ghost"], "QuestPoints": 2.0}, "Priest in Peril": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Regicide": {"Skills": {"Crafting": "10", "Agility": "56"}, "Quests": ["Underground Pass"], "QuestPoints": 3.0}, "Tai Bwo Wannai Trio": {"Skills": {"Agility": "15", "Cooking": "30", "Fishing": "5"}, "Quests": ["Jungle Potion"], "QuestPoints": 2.0}, "Troll Stronghold": {"Skills": {"Agility": "15"}, "Quests": ["Death Plateau"], "QuestPoints": 1.0}, "Shades of Mort'ton": {"Skills": {"Crafting": "20", "Herblore": "15", "Firemaking": "5"}, "Quests": ["Priest in Peril"], "QuestPoints": 3.0}, "The Fremennik Trials": {"Skills": {"Fletching": "25", "Woodcutting": "40", "Crafting": "40"}, "Quests": [], "QuestPoints": 3.0}, "Horror from the Deep": {"Skills": {"Agility": "35"}, "Quests": ["Alfred Grimhand's Barcrawl"], "QuestPoints": 2.0}, "Throne of Miscellania": {"Skills": {}, "Quests": ["Heroes' Quest", "The Fremennik Trials"], "QuestPoints": 1.0}, "Monkey Madness I": {"Skills": {}, "Quests": ["The Grand Tree", "Tree Gnome Village"], "QuestPoints": 3.0}, "Haunted Mine": {"Skills": {"Crafting": "35"}, "Quests": ["Priest in Peril"], "QuestPoints": 2.0}, "Troll Romance": {"Skills": {"Agility": "28"}, "Quests": ["Troll Stronghold"], "QuestPoints": 2.0}, "In Search of the Myreque": {"Skills": {"Agility": "25"}, "Quests": ["Nature Spirit"], "QuestPoints": 2.0}, "Creature of Fenkenstrain": {"Skills": {"Crafting": "20", "Thieving": "25"}, "Quests": ["Priest in Peril", "The Restless Ghost"], "QuestPoints": 2.0}, "Roving Elves": {"Skills": {"Agility": "56"}, "Quests": ["Regicide", "Waterfall Quest"], "QuestPoints": 1.0}, "Ghosts Ahoy": {"Skills": {"Agility": "25", "Cooking": "20"}, "Quests": ["Priest in Peril", "The Restless Ghost"], "QuestPoints": 2.0}, "One Small Favour": {"Skills": {"Agility": "36", "Crafting": "25", "Herblore": "18", "Smithing": "30"}, "Quests": ["Rune Mysteries", "Shilo Village"], "QuestPoints": 2.0}, "Mountain Daughter": {"Skills": {"Agility": "20"}, "Quests": [], "QuestPoints": 2.0}, "Between a Rock...": {"Skills": {"Defence": "30", "Mining": "40", "Smithing": "50"}, "Quests": ["Dwarf Cannon", "Fishing Contest"], "QuestPoints": 2.0}, "The Feud": {"Skills": {"Thieving": "30"}, "Quests": [], "QuestPoints": 1.0}, "The Golem": {"Skills": {"Crafting": "20", "Thieving": "25"}, "Quests": [], "QuestPoints": 1.0}, "Desert Treasure I": {"Skills": {"Thieving": "53", "Magic": "50", "Firemaking": "50", "Slayer": "10"}, "Quests": ["The Tourist Trap", "Troll Stronghold", "The Dig Site", "Plague City", "Temple of Ikov", "Nature Spirit", "Waterfall Quest"], "QuestPoints": 3.0}, "Icthlarin's Little Helper": {"Skills": {}, "Quests": ["Gertrude's Cat"], "QuestPoints": 2.0}, "Tears of Guthix": {"Skills": {"Quest points": "43", "Firemaking": "49", "Crafting": "20", "Mining": "20"}, "Quests": [], "QuestPoints": 1.0}, "The Lost Tribe": {"Skills": {"Agility": "13", "Thieving": "13", "Mining": "17"}, "Quests": ["Goblin Diplomacy", "Rune Mysteries"], "QuestPoints": 1.0}, "The Giant Dwarf": {"Skills": {"Crafting": "12", "Firemaking": "16", "Magic": "33", "Thieving": "14"}, "Quests": [], "QuestPoints": 2.0}, "Recruitment Drive": {"Skills": {}, "Quests": ["Black Knights' Fortress", "Druidic Ritual"], "QuestPoints": 1.0}, "Mourning's End Part I": {"Skills": {"Ranged": "60", "Thieving": "50"}, "Quests": ["Roving Elves", "Big Chompy Bird Hunting", "Sheep Herder"], "QuestPoints": 2.0}, "Forgettable Tale...": {"Skills": {"Cooking": "22", "Farming": "17"}, "Quests": ["Fishing Contest", "The Giant Dwarf"], "QuestPoints": 2.0}, "Garden of Tranquillity": {"Skills": {"Farming": "25"}, "Quests": ["Creature of Fenkenstrain"], "QuestPoints": 2.0}, "A Tail of Two Cats": {"Skills": {}, "Quests": ["Icthlarin's Little Helper"], "QuestPoints": 2.0}, "Wanted!": {"Skills": {"Quest points": "32"}, "Quests": ["Priest in Peril", "The Lost Tribe", "Enter the Abyss", "Recruitment Drive"], "QuestPoints": 1.0}, "Mourning's End Part II": {"Skills": {}, "Quests": ["Mourning's End Part I"], "QuestPoints": 2.0}, "Rum Deal": {"Skills": {"Crafting": "42", "Fishing": "50", "Farming": "40", "Prayer": "47", "Slayer": "42"}, "Quests": ["Priest in Peril", "Zogre Flesh Eaters"], "QuestPoints": 2.0}, "Shadow of the Storm": {"Skills": {"Crafting": "30"}, "Quests": ["The Golem", "Demon Slayer"], "QuestPoints": 1.0}, "Making History": {"Skills": {}, "Quests": ["Priest in Peril", "The Restless Ghost"], "QuestPoints": 3.0}, "Ratcatchers": {"Skills": {}, "Quests": ["Icthlarin's Little Helper", "The Giant Dwarf"], "QuestPoints": 2.0}, "Spirits of the Elid": {"Skills": {"Magic": "33", "Ranged": "37", "Mining": "37", "Thieving": "37"}, "Quests": [], "QuestPoints": 2.0}, "Devious Minds": {"Skills": {"Smithing": "65", "Runecraft": "50", "Fletching": "50"}, "Quests": ["Wanted!", "Troll Stronghold", "Doric's Quest"], "QuestPoints": 1.0}, "The Hand in the Sand": {"Skills": {"Thieving": "17", "Crafting": "49"}, "Quests": [], "QuestPoints": 1.0}, "Enakhra's Lament": {"Skills": {"Crafting": "50", "Firemaking": "45", "Prayer": "43", "Magic": "39"}, "Quests": [], "QuestPoints": 2.0}, "Cabin Fever": {"Skills": {"Agility": "42", "Crafting": "45", "Smithing": "50", "Ranged": "40"}, "Quests": ["Rum Deal", "Pirate's Treasure"], "QuestPoints": 2.0}, "Fairytale I - Growing Pains": {"Skills": {}, "Quests": ["Nature Spirit", "Lost City"], "QuestPoints": 2.0}, "In Aid of the Myreque": {"Skills": {"Agility": "25", "Crafting": "25", "Mining": "15", "Magic": "7"}, "Quests": ["In Search of the Myreque"], "QuestPoints": 2.0}, "A Soul's Bane": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Rag and Bone Man I": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Swan Song": {"Skills": {"Quest points": "100", "Magic": "66", "Cooking": "62", "Fishing": "62", "Smithing": "45", "Firemaking": "42", "Crafting": "40"}, "Quests": ["Garden of Tranquillity", "One Small Favour"], "QuestPoints": 2.0}, "Royal Trouble": {"Skills": {"Agility": "40", "Slayer": "40"}, "Quests": ["Throne of Miscellania"], "QuestPoints": 1.0}, "Death to the Dorgeshuun": {"Skills": {"Agility": "23", "Thieving": "23"}, "Quests": ["The Lost Tribe"], "QuestPoints": 1.0}, "Fairytale II - Cure a Queen": {"Skills": {"Thieving": "40", "Farming": "49", "Herblore": "57"}, "Quests": ["Fairytale I - Growing Pains"], "QuestPoints": 2.0}, "Lunar Diplomacy": {"Skills": {"Herblore": "5", "Crafting": "61", "Defence": "40", "Firemaking": "49", "Magic": "65", "Mining": "60", "Woodcutting": "55"}, "Quests": ["Lost City", "The Fremennik Trials", "Rune Mysteries", "Shilo Village"], "QuestPoints": 2.0}, "The Eyes of Glouphrie": {"Skills": {"Construction": "5", "Magic": "46"}, "Quests": ["The Grand Tree"], "QuestPoints": 2.0}, "Darkness of Hallowvale": {"Skills": {"Construction": "5", "Mining": "20", "Thieving": "22", "Agility": "26", "Crafting": "32", "Magic": "33", "Strength": "40"}, "Quests": ["In Aid of the Myreque"], "QuestPoints": 2.0}, "The Slug Menace": {"Skills": {"Crafting": "30", "Runecraft": "30", "Slayer": "30", "Thieving": "30"}, "Quests": ["Sea Slug", "Wanted!"], "QuestPoints": 1.0}, "Elemental Workshop II": {"Skills": {"Magic": "20", "Smithing": "30"}, "Quests": ["Elemental Workshop I"], "QuestPoints": 1.0}, "My Arm's Big Adventure": {"Skills": {"Farming": "29", "Woodcutting": "10"}, "Quests": ["The Feud", "Eadgar's Ruse", "Jungle Potion"], "QuestPoints": 1.0}, "Enlightened Journey": {"Skills": {"Quest points": "20", "Firemaking": "20", "Farming": "30", "Crafting": "36"}, "Quests": [], "QuestPoints": 1.0}, "Eagles' Peak": {"Skills": {"Hunter": "27"}, "Quests": [], "QuestPoints": 2.0}, "Animal Magnetism": {"Skills": {"Slayer": "18", "Crafting": "19", "Ranged": "30", "Woodcutting": "35"}, "Quests": ["Priest in Peril", "Ernest the Chicken", "The Restless Ghost"], "QuestPoints": 1.0}, "Contact!": {"Skills": {}, "Quests": ["Icthlarin's Little Helper", "Prince Ali Rescue"], "QuestPoints": 1.0}, "Cold War": {"Skills": {"Hunter": "10", "Agility": "30", "Crafting": "30", "Construction": "34", "Thieving": "15"}, "Quests": [], "QuestPoints": 1.0}, "The Fremennik Isles": {"Skills": {"Construction": "20"}, "Quests": ["The Fremennik Trials"], "QuestPoints": 1.0}, "The Great Brain Robbery": {"Skills": {"Crafting": "16", "Construction": "30", "Prayer": "50"}, "Quests": ["Cabin Fever", "Creature of Fenkenstrain", "Cook's Assistant"], "QuestPoints": 2.0}, "What Lies Below": {"Skills": {"Runecraft": "35"}, "Quests": ["Rune Mysteries"], "QuestPoints": 1.0}, "Olaf's Quest": {"Skills": {"Firemaking": "40", "Woodcutting": "50"}, "Quests": ["The Fremennik Trials"], "QuestPoints": 1.0}, "Another Slice of H.A.M.": {"Skills": {"Attack": "15", "Prayer": "25"}, "Quests": ["The Giant Dwarf", "The Dig Site", "Death to the Dorgeshuun"], "QuestPoints": 1.0}, "Dream Mentor": {"Skills": {"Combat level": "85"}, "Quests": ["Lunar Diplomacy", "Eadgar's Ruse"], "QuestPoints": 2.0}, "Grim Tales": {"Skills": {"Farming": "45", "Herblore": "52", "Thieving": "58", "Agility": "59", "Woodcutting": "71"}, "Quests": ["Witch's House"], "QuestPoints": 1.0}, "King's Ransom": {"Skills": {"Magic": "45", "Defence": "65"}, "Quests": ["Murder Mystery", "Holy Grail", "Black Knights' Fortress", "One Small Favour"], "QuestPoints": 1.0}, "Shilo Village": {"Skills": {"Crafting": "20", "Agility": "32"}, "Quests": ["Jungle Potion"], "QuestPoints": 2.0}, "Biohazard": {"Skills": {}, "Quests": ["Plague City"], "QuestPoints": 3.0}, "Tower of Life": {"Skills": {"Construction": "10"}, "Quests": [], "QuestPoints": 2.0}, "Rag and Bone Man II": {"Skills": {"Slayer": "40", "Defence": "20"}, "Quests": ["Creature of Fenkenstrain", "Zogre Flesh Eaters", "Rag and Bone Man I", "Horror from the Deep", "Skippy and the Mogres", "The Fremennik Trials", "Waterfall Quest"], "QuestPoints": 1.0}, "Land of the Goblins": {"Skills": {"Agility": "38", "Fishing": "40", "Thieving": "45", "Herblore": "48"}, "Quests": ["Fishing Contest", "Another Slice of H.A.M."], "QuestPoints": 2.0}, "Zogre Flesh Eaters": {"Skills": {"Smithing": "4", "Herblore": "8", "Ranged": "30"}, "Quests": ["Big Chompy Bird Hunting", "Jungle Potion"], "QuestPoints": 1.0}, "Monkey Madness II": {"Skills": {"Slayer": "69", "Crafting": "70", "Hunter": "60", "Agility": "55", "Thieving": "55", "Firemaking": "60"}, "Quests": ["The Eyes of Glouphrie", "Monkey Madness I", "Watchtower", "Troll Stronghold", "Enlightened Journey"], "QuestPoints": 4.0}, "Client of Kourend": {"Skills": {}, "Quests": ["X Marks the Spot"], "QuestPoints": 1.0}, "The Queen of Thieves": {"Skills": {"Thieving": "20"}, "Quests": ["Client of Kourend"], "QuestPoints": 1.0}, "Bone Voyage": {"Skills": {}, "Quests": ["The Dig Site"], "QuestPoints": 1.0}, "Dragon Slayer II": {"Skills": {"Quest points": "200", "Magic": "75", "Smithing": "70", "Mining": "68", "Crafting": "62", "Agility": "60", "Thieving": "60", "Construction": "50", "Hitpoints": "50"}, "Quests": ["Animal Magnetism", "Legends' Quest", "Dream Mentor", "A Tail of Two Cats", "Ghosts Ahoy", "Barbarian Training", "Client of Kourend", "Bone Voyage"], "QuestPoints": 5.0}, "The Depths of Despair": {"Skills": {"Agility": "18"}, "Quests": ["Client of Kourend"], "QuestPoints": 1.0}, "Recipe for Disaster - Another Cook's Quest": {"Skills": {"Cooking": "10"}, "Quests": ["Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - Wartface & Bentnoze": {"Skills": {}, "Quests": ["Goblin Diplomacy", "Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - Mountain Dwarf": {"Skills": {}, "Quests": ["Fishing Contest", "Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - Evil Dave": {"Skills": {"Cooking": "25"}, "Quests": ["Shadow of the Storm", "Gertrude's Cat", "Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - Pirate Pete": {"Skills": {"Cooking": "31"}, "Quests": ["Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - Lumbridge Guide": {"Skills": {"Cooking": "40"}, "Quests": ["Biohazard", "Murder Mystery", "Cook's Assistant", "Nature Spirit", "Big Chompy Bird Hunting", "Demon Slayer", "Witch's House"], "QuestPoints": 1.0}, "Recipe for Disaster - Sir Amik Varze": {"Skills": {"Quest points": "107"}, "Quests": ["Legends' Quest", "Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - King Awowogei": {"Skills": {"Cooking": "70", "Agility": "48"}, "Quests": ["Monkey Madness I", "Cook's Assistant"], "QuestPoints": 1.0}, "Recipe for Disaster - Skrach Uglogwee": {"Skills": {"Cooking": "41", "Firemaking": "20"}, "Quests": ["Big Chompy Bird Hunting", "Cook's Assistant"], "QuestPoints": 1.0}, "A Taste of Hope": {"Skills": {"Crafting": "48", "Agility": "45", "Attack": "40", "Herblore": "40", "Slayer": "38"}, "Quests": ["Darkness of Hallowvale"], "QuestPoints": 1.0}, "Tale of the Righteous": {"Skills": {"Strength": "16", "Mining": "10"}, "Quests": ["Client of Kourend"], "QuestPoints": 1.0}, "Making Friends with My Arm": {"Skills": {"Firemaking": "66", "Mining": "72", "Construction": "35", "Agility": "68"}, "Quests": ["Romeo & Juliet", "Swan Song", "My Arm's Big Adventure", "Cold War"], "QuestPoints": 2.0}, "Recipe for Disaster - Culinaromancer": {"Skills": {"Quest points": "175"}, "Quests": ["Desert Treasure I", "Priest in Peril", "Horror from the Deep"], "QuestPoints": 1.0}, "Song of the Elves": {"Skills": {"Agility": "70", "Construction": "70", "Farming": "70", "Herblore": "70", "Hunter": "70", "Mining": "70", "Smithing": "70", "Woodcutting": "70"}, "Quests": ["Druidic Ritual", "Making History", "Mourning's End Part II"], "QuestPoints": 4.0}, "The Ascent of Arceuus": {"Skills": {"Hunter": "12"}, "Quests": ["Client of Kourend"], "QuestPoints": 1.0}, "The Forsaken Tower": {"Skills": {}, "Quests": ["Client of Kourend"], "QuestPoints": 1.0}, "The Fremennik Exiles": {"Skills": {"Crafting": "65", "Slayer": "60", "Smithing": "60", "Fishing": "60", "Runecraft": "55"}, "Quests": ["The Fremennik Isles", "Lunar Diplomacy", "Mountain Daughter", "Heroes' Quest"], "QuestPoints": 2.0}, "Defender of Varrock": {"Skills": {"Smithing": "55", "Hunter": "52"}, "Quests": ["Below Ice Mountain", "Family Crest", "Garden of Tranquillity", "Temple of Ikov", "Romeo & Juliet", "Demon Slayer", "What Lies Below", "Shield of Arrav"], "QuestPoints": 2.0}, "Sins of the Father": {"Skills": {"Woodcutting": "62", "Fletching": "60", "Crafting": "56", "Agility": "52", "Attack": "50", "Slayer": "50", "Magic": "49"}, "Quests": ["A Taste of Hope", "Vampyre Slayer"], "QuestPoints": 2.0}, "A Kingdom Divided": {"Skills": {"Agility": "54", "Thieving": "52", "Woodcutting": "52", "Herblore": "50", "Mining": "42", "Crafting": "38", "Magic": "35"}, "Quests": ["The Ascent of Arceuus", "The Depths of Despair", "Tale of the Righteous", "The Forsaken Tower", "The Queen of Thieves"], "QuestPoints": 2.0}, "A Porcine of Interest": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Getting Ahead": {"Skills": {"Crafting": "30", "Construction": "26"}, "Quests": [], "QuestPoints": 1.0}, "A Night at the Theatre": {"Skills": {}, "Quests": ["A Taste of Hope"], "QuestPoints": 2.0}, "Beneath Cursed Sands": {"Skills": {"Agility": "62", "Crafting": "55", "Firemaking": "55"}, "Quests": ["Contact!"], "QuestPoints": 2.0}, "Temple of the Eye": {"Skills": {"Runecraft": "10"}, "Quests": ["Enter the Abyss"], "QuestPoints": 1.0}, "The Path of Glouphrie": {"Skills": {"Strength": "60", "Slayer": "56", "Thieving": "56", "Ranged": "47", "Agility": "45"}, "Quests": ["The Eyes of Glouphrie", "Waterfall Quest", "Tree Gnome Village"], "QuestPoints": 2.0}, "Sleeping Giants": {"Skills": {"Smithing": "15"}, "Quests": [], "QuestPoints": 1.0}, "The Garden of Death": {"Skills": {"Farming": "20"}, "Quests": [], "QuestPoints": 1.0}, "Desert Treasure II - The Fallen Empire": {"Skills": {"Firemaking": "75", "Magic": "75", "Thieving": "70", "Herblore": "62", "Runecraft": "60", "Construction": "60"}, "Quests": ["Below Ice Mountain", "The Garden of Death", "Secrets of the North", "Temple of the Eye", "Enakhra's Lament", "His Faithful Servants"], "QuestPoints": 5.0}, "Secrets of the North": {"Skills": {"Agility": "69", "Thieving": "64", "Hunter": "56"}, "Quests": ["Devious Minds", "The General's Shadow", "Hazeel Cult", "Making Friends with My Arm"], "QuestPoints": 2.0}, "Children of the Sun": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "While Guthix Sleeps": {"Skills": {"Thieving": "72", "Magic": "67", "Agility": "66", "Farming": "65", "Herblore": "65", "Hunter": "62", "Defence": "40"}, "Quests": ["Dream Mentor", "Temple of the Eye", "Tears of Guthix", "The Hand in the Sand", "Nature Spirit", "The Path of Glouphrie", "Wanted!", "Fight Arena", "Defender of Varrock"], "QuestPoints": 5.0}, "The Restless Ghost": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Cook's Assistant": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Sheep Shearer": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Shield of Arrav": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Demon Slayer": {"Skills": {}, "Quests": [], "QuestPoints": 3.0}, "Romeo & Juliet": {"Skills": {}, "Quests": [], "QuestPoints": 5.0}, "Ernest the Chicken": {"Skills": {}, "Quests": [], "QuestPoints": 4.0}, "Vampyre Slayer": {"Skills": {}, "Quests": [], "QuestPoints": 3.0}, "Imp Catcher": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Prince Ali Rescue": {"Skills": {}, "Quests": [], "QuestPoints": 3.0}, "The Knight's Sword": {"Skills": {"Mining": "10"}, "Quests": [], "QuestPoints": 1.0}, "Witch's Potion": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Black Knights' Fortress": {"Skills": {"Quest points": "12"}, "Quests": [], "QuestPoints": 3.0}, "Doric's Quest": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Goblin Diplomacy": {"Skills": {}, "Quests": [], "QuestPoints": 5.0}, "Pirate's Treasure": {"Skills": {}, "Quests": [], "QuestPoints": 2.0}, "Dragon Slayer I": {"Skills": {"Quest points": "32"}, "Quests": [], "QuestPoints": 2.0}, "Rune Mysteries": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Misthalin Mystery": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "The Corsair Curse": {"Skills": {}, "Quests": [], "QuestPoints": 2.0}, "X Marks the Spot": {"Skills": {}, "Quests": [], "QuestPoints": 1.0}, "Below Ice Mountain": {"Skills": {"Quest points": "16"}, "Quests": [], "QuestPoints": 1.0}}
+{
+    "Alfred Grimhand's Barcrawl": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 0
+    },
+    "Enter the Abyss": {
+        "Skills": {},
+        "Quests": [
+            "Rune Mysteries"
+        ],
+        "QuestPoints": 0
+    },
+    "The General's Shadow": {
+        "Skills": {},
+        "Quests": [
+            "Fight Arena",
+            "Curse of the Empty Lord"
+        ],
+        "QuestPoints": 0
+    },
+    "Barbarian Training": {
+        "Skills": {
+            "Fishing": "55",
+            "Firemaking": "35",
+            "Strength": "35",
+            "Agility": "15",
+            "Farming": "15",
+            "Crafting": "11",
+            "Smithing": "5",
+            "Herblore": "4"
+        },
+        "Quests": [
+            "Tai Bwo Wannai Trio"
+        ],
+        "QuestPoints": 0
+    },
+    "Skippy and the Mogres": {
+        "Skills": {
+            "Cooking": "20"
+        },
+        "Quests": [],
+        "QuestPoints": 0
+    },
+    "Curse of the Empty Lord": {
+        "Skills": {
+            "Thieving": "53",
+            "Prayer": "31"
+        },
+        "Quests": [
+            "The Restless Ghost",
+            "Desert Treasure I"
+        ],
+        "QuestPoints": 0
+    },
+    "Lair of Tarn Razorlor": {
+        "Skills": {
+            "Slayer": "40"
+        },
+        "Quests": [
+            "Haunted Mine"
+        ],
+        "QuestPoints": 0
+    },
+    "Bear Your Soul": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 0
+    },
+    "The Enchanted Key": {
+        "Skills": {},
+        "Quests": [
+            "Making History"
+        ],
+        "QuestPoints": 0
+    },
+    "Mage Arena I": {
+        "Skills": {
+            "Magic": "60"
+        },
+        "Quests": [],
+        "QuestPoints": 0
+    },
+    "Family Pest": {
+        "Skills": {},
+        "Quests": [
+            "Family Crest"
+        ],
+        "QuestPoints": 0
+    },
+    "Mage Arena II": {
+        "Skills": {
+            "Magic": "75"
+        },
+        "Quests": [
+            "Mage Arena I"
+        ],
+        "QuestPoints": 0
+    },
+    "In Search of Knowledge": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 0
+    },
+    "Daddy's Home": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 0
+    },
+    "The Frozen Door": {
+        "Skills": {
+            "Agility": "70",
+            "Hitpoints": "70",
+            "Ranged": "70",
+            "Strength": "70"
+        },
+        "Quests": [
+            "Desert Treasure I"
+        ],
+        "QuestPoints": 0
+    },
+    "Hopespear's Will": {
+        "Skills": {
+            "Prayer": "50"
+        },
+        "Quests": [
+            "Land of the Goblins",
+            "Fairytale II - Cure a Queen",
+            "Desert Treasure I"
+        ],
+        "QuestPoints": 0
+    },
+    "Into the Tombs": {
+        "Skills": {},
+        "Quests": [
+            "Beneath Cursed Sands"
+        ],
+        "QuestPoints": 0
+    },
+    "His Faithful Servants": {
+        "Skills": {},
+        "Quests": [
+            "Priest in Peril"
+        ],
+        "QuestPoints": 0
+    },
+    "Druidic Ritual": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 4.0
+    },
+    "Lost City": {
+        "Skills": {
+            "Crafting": "31",
+            "Woodcutting": "36"
+        },
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "Witch's House": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 4.0
+    },
+    "Merlin's Crystal": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 6.0
+    },
+    "Heroes' Quest": {
+        "Skills": {
+            "Quest points": "55",
+            "Cooking": "53",
+            "Fishing": "53",
+            "Herblore": "25",
+            "Mining": "50"
+        },
+        "Quests": [
+            "Merlin's Crystal",
+            "Shield of Arrav",
+            "Dragon Slayer I",
+            "Lost City"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Scorpion Catcher": {
+        "Skills": {
+            "Prayer": "31"
+        },
+        "Quests": [
+            "Alfred Grimhand's Barcrawl"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Family Crest": {
+        "Skills": {
+            "Mining": "40",
+            "Smithing": "40",
+            "Magic": "59",
+            "Crafting": "40"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Fishing Contest": {
+        "Skills": {
+            "Fishing": "10"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Tribal Totem": {
+        "Skills": {
+            "Thieving": "21"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Monk's Friend": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Temple of Ikov": {
+        "Skills": {
+            "Thieving": "42",
+            "Ranged": "40"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Clock Tower": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Holy Grail": {
+        "Skills": {
+            "Attack": "20"
+        },
+        "Quests": [
+            "Merlin's Crystal"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Tree Gnome Village": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Fight Arena": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Hazeel Cult": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Sheep Herder": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 4.0
+    },
+    "Plague City": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Sea Slug": {
+        "Skills": {
+            "Firemaking": "30"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Waterfall Quest": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Jungle Potion": {
+        "Skills": {
+            "Herblore": "3"
+        },
+        "Quests": [
+            "Druidic Ritual"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Grand Tree": {
+        "Skills": {
+            "Agility": "25"
+        },
+        "Quests": [],
+        "QuestPoints": 5.0
+    },
+    "Underground Pass": {
+        "Skills": {
+            "Ranged": "25"
+        },
+        "Quests": [
+            "Biohazard"
+        ],
+        "QuestPoints": 5.0
+    },
+    "Observatory Quest": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "The Tourist Trap": {
+        "Skills": {
+            "Fletching": "10",
+            "Smithing": "20"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Watchtower": {
+        "Skills": {
+            "Magic": "14",
+            "Thieving": "15",
+            "Agility": "25",
+            "Herblore": "14",
+            "Mining": "40"
+        },
+        "Quests": [],
+        "QuestPoints": 4.0
+    },
+    "Dwarf Cannon": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Murder Mystery": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "The Dig Site": {
+        "Skills": {
+            "Agility": "10",
+            "Herblore": "10",
+            "Thieving": "25"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Gertrude's Cat": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Legends' Quest": {
+        "Skills": {
+            "Quest points": "107",
+            "Agility": "50",
+            "Crafting": "50",
+            "Herblore": "45",
+            "Magic": "56",
+            "Mining": "52",
+            "Prayer": "42",
+            "Smithing": "50",
+            "Strength": "50",
+            "Thieving": "50",
+            "Woodcutting": "50"
+        },
+        "Quests": [
+            "Underground Pass",
+            "Heroes' Quest",
+            "Waterfall Quest",
+            "Family Crest",
+            "Shilo Village"
+        ],
+        "QuestPoints": 4.0
+    },
+    "Death Plateau": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Eadgar's Ruse": {
+        "Skills": {
+            "Herblore": "31"
+        },
+        "Quests": [
+            "Troll Stronghold",
+            "Druidic Ritual"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Big Chompy Bird Hunting": {
+        "Skills": {
+            "Fletching": "5",
+            "Cooking": "30",
+            "Ranged": "30"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Elemental Workshop I": {
+        "Skills": {
+            "Mining": "20",
+            "Smithing": "20",
+            "Crafting": "20"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Nature Spirit": {
+        "Skills": {},
+        "Quests": [
+            "The Restless Ghost",
+            "Priest in Peril"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Priest in Peril": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Regicide": {
+        "Skills": {
+            "Crafting": "10",
+            "Agility": "56"
+        },
+        "Quests": [
+            "Underground Pass"
+        ],
+        "QuestPoints": 3.0
+    },
+    "Tai Bwo Wannai Trio": {
+        "Skills": {
+            "Agility": "15",
+            "Cooking": "30",
+            "Fishing": "5"
+        },
+        "Quests": [
+            "Jungle Potion"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Troll Stronghold": {
+        "Skills": {
+            "Agility": "15"
+        },
+        "Quests": [
+            "Death Plateau"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Shades of Mort'ton": {
+        "Skills": {
+            "Crafting": "20",
+            "Herblore": "15",
+            "Firemaking": "5"
+        },
+        "Quests": [
+            "Priest in Peril"
+        ],
+        "QuestPoints": 3.0
+    },
+    "The Fremennik Trials": {
+        "Skills": {
+            "Fletching": "25",
+            "Woodcutting": "40",
+            "Crafting": "40"
+        },
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "Horror from the Deep": {
+        "Skills": {
+            "Agility": "35"
+        },
+        "Quests": [
+            "Alfred Grimhand's Barcrawl"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Throne of Miscellania": {
+        "Skills": {},
+        "Quests": [
+            "The Fremennik Trials",
+            "Heroes' Quest"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Monkey Madness I": {
+        "Skills": {},
+        "Quests": [
+            "The Grand Tree",
+            "Tree Gnome Village"
+        ],
+        "QuestPoints": 3.0
+    },
+    "Haunted Mine": {
+        "Skills": {
+            "Crafting": "35"
+        },
+        "Quests": [
+            "Priest in Peril"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Troll Romance": {
+        "Skills": {
+            "Agility": "28"
+        },
+        "Quests": [
+            "Troll Stronghold"
+        ],
+        "QuestPoints": 2.0
+    },
+    "In Search of the Myreque": {
+        "Skills": {
+            "Agility": "25"
+        },
+        "Quests": [
+            "Nature Spirit"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Creature of Fenkenstrain": {
+        "Skills": {
+            "Crafting": "20",
+            "Thieving": "25"
+        },
+        "Quests": [
+            "The Restless Ghost",
+            "Priest in Peril"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Roving Elves": {
+        "Skills": {
+            "Agility": "56"
+        },
+        "Quests": [
+            "Regicide",
+            "Waterfall Quest"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Ghosts Ahoy": {
+        "Skills": {
+            "Agility": "25",
+            "Cooking": "20"
+        },
+        "Quests": [
+            "The Restless Ghost",
+            "Priest in Peril"
+        ],
+        "QuestPoints": 2.0
+    },
+    "One Small Favour": {
+        "Skills": {
+            "Agility": "36",
+            "Crafting": "25",
+            "Herblore": "18",
+            "Smithing": "30"
+        },
+        "Quests": [
+            "Rune Mysteries",
+            "Shilo Village"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Mountain Daughter": {
+        "Skills": {
+            "Agility": "20"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Between a Rock...": {
+        "Skills": {
+            "Defence": "30",
+            "Mining": "40",
+            "Smithing": "50"
+        },
+        "Quests": [
+            "Dwarf Cannon",
+            "Fishing Contest"
+        ],
+        "QuestPoints": 2.0
+    },
+    "The Feud": {
+        "Skills": {
+            "Thieving": "30"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Golem": {
+        "Skills": {
+            "Crafting": "20",
+            "Thieving": "25"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Desert Treasure I": {
+        "Skills": {
+            "Thieving": "53",
+            "Magic": "50",
+            "Firemaking": "50",
+            "Slayer": "10"
+        },
+        "Quests": [
+            "The Dig Site",
+            "The Tourist Trap",
+            "Plague City",
+            "Waterfall Quest",
+            "Nature Spirit",
+            "Troll Stronghold",
+            "Temple of Ikov"
+        ],
+        "QuestPoints": 3.0
+    },
+    "Icthlarin's Little Helper": {
+        "Skills": {},
+        "Quests": [
+            "Gertrude's Cat"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Tears of Guthix": {
+        "Skills": {
+            "Quest points": "43",
+            "Firemaking": "49",
+            "Crafting": "20",
+            "Mining": "20"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Lost Tribe": {
+        "Skills": {
+            "Agility": "13",
+            "Thieving": "13",
+            "Mining": "17"
+        },
+        "Quests": [
+            "Goblin Diplomacy",
+            "Rune Mysteries"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Giant Dwarf": {
+        "Skills": {
+            "Crafting": "12",
+            "Firemaking": "16",
+            "Magic": "33",
+            "Thieving": "14"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Recruitment Drive": {
+        "Skills": {},
+        "Quests": [
+            "Black Knights' Fortress",
+            "Druidic Ritual"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Mourning's End Part I": {
+        "Skills": {
+            "Ranged": "60",
+            "Thieving": "50"
+        },
+        "Quests": [
+            "Sheep Herder",
+            "Big Chompy Bird Hunting",
+            "Roving Elves"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Forgettable Tale...": {
+        "Skills": {
+            "Cooking": "22",
+            "Farming": "17"
+        },
+        "Quests": [
+            "The Giant Dwarf",
+            "Fishing Contest"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Garden of Tranquillity": {
+        "Skills": {
+            "Farming": "25"
+        },
+        "Quests": [
+            "Creature of Fenkenstrain"
+        ],
+        "QuestPoints": 2.0
+    },
+    "A Tail of Two Cats": {
+        "Skills": {},
+        "Quests": [
+            "Icthlarin's Little Helper"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Wanted!": {
+        "Skills": {
+            "Quest points": "32"
+        },
+        "Quests": [
+            "Priest in Peril",
+            "Recruitment Drive",
+            "The Lost Tribe",
+            "Enter the Abyss"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Mourning's End Part II": {
+        "Skills": {},
+        "Quests": [
+            "Mourning's End Part I"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Rum Deal": {
+        "Skills": {
+            "Crafting": "42",
+            "Fishing": "50",
+            "Farming": "40",
+            "Prayer": "47",
+            "Slayer": "42"
+        },
+        "Quests": [
+            "Zogre Flesh Eaters",
+            "Priest in Peril"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Shadow of the Storm": {
+        "Skills": {
+            "Crafting": "30"
+        },
+        "Quests": [
+            "Demon Slayer",
+            "The Golem"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Making History": {
+        "Skills": {},
+        "Quests": [
+            "The Restless Ghost",
+            "Priest in Peril"
+        ],
+        "QuestPoints": 3.0
+    },
+    "Ratcatchers": {
+        "Skills": {},
+        "Quests": [
+            "The Giant Dwarf",
+            "Icthlarin's Little Helper"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Spirits of the Elid": {
+        "Skills": {
+            "Magic": "33",
+            "Ranged": "37",
+            "Mining": "37",
+            "Thieving": "37"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Devious Minds": {
+        "Skills": {
+            "Smithing": "65",
+            "Runecraft": "50",
+            "Fletching": "50"
+        },
+        "Quests": [
+            "Doric's Quest",
+            "Troll Stronghold",
+            "Wanted!"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Hand in the Sand": {
+        "Skills": {
+            "Thieving": "17",
+            "Crafting": "49"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Enakhra's Lament": {
+        "Skills": {
+            "Crafting": "50",
+            "Firemaking": "45",
+            "Prayer": "43",
+            "Magic": "39"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Cabin Fever": {
+        "Skills": {
+            "Agility": "42",
+            "Crafting": "45",
+            "Smithing": "50",
+            "Ranged": "40"
+        },
+        "Quests": [
+            "Rum Deal",
+            "Pirate's Treasure"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Fairytale I - Growing Pains": {
+        "Skills": {},
+        "Quests": [
+            "Nature Spirit",
+            "Lost City"
+        ],
+        "QuestPoints": 2.0
+    },
+    "In Aid of the Myreque": {
+        "Skills": {
+            "Agility": "25",
+            "Crafting": "25",
+            "Mining": "15",
+            "Magic": "7"
+        },
+        "Quests": [
+            "In Search of the Myreque"
+        ],
+        "QuestPoints": 2.0
+    },
+    "A Soul's Bane": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Rag and Bone Man I": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Swan Song": {
+        "Skills": {
+            "Quest points": "100",
+            "Magic": "66",
+            "Cooking": "62",
+            "Fishing": "62",
+            "Smithing": "45",
+            "Firemaking": "42",
+            "Crafting": "40"
+        },
+        "Quests": [
+            "One Small Favour",
+            "Garden of Tranquillity"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Royal Trouble": {
+        "Skills": {
+            "Agility": "40",
+            "Slayer": "40"
+        },
+        "Quests": [
+            "Throne of Miscellania"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Death to the Dorgeshuun": {
+        "Skills": {
+            "Agility": "23",
+            "Thieving": "23"
+        },
+        "Quests": [
+            "The Lost Tribe"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Fairytale II - Cure a Queen": {
+        "Skills": {
+            "Thieving": "40",
+            "Farming": "49",
+            "Herblore": "57"
+        },
+        "Quests": [
+            "Fairytale I - Growing Pains"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Lunar Diplomacy": {
+        "Skills": {
+            "Herblore": "5",
+            "Crafting": "61",
+            "Defence": "40",
+            "Firemaking": "49",
+            "Magic": "65",
+            "Mining": "60",
+            "Woodcutting": "55"
+        },
+        "Quests": [
+            "The Fremennik Trials",
+            "Rune Mysteries",
+            "Shilo Village",
+            "Lost City"
+        ],
+        "QuestPoints": 2.0
+    },
+    "The Eyes of Glouphrie": {
+        "Skills": {
+            "Construction": "5",
+            "Magic": "46"
+        },
+        "Quests": [
+            "The Grand Tree"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Darkness of Hallowvale": {
+        "Skills": {
+            "Construction": "5",
+            "Mining": "20",
+            "Thieving": "22",
+            "Agility": "26",
+            "Crafting": "32",
+            "Magic": "33",
+            "Strength": "40"
+        },
+        "Quests": [
+            "In Aid of the Myreque"
+        ],
+        "QuestPoints": 2.0
+    },
+    "The Slug Menace": {
+        "Skills": {
+            "Crafting": "30",
+            "Runecraft": "30",
+            "Slayer": "30",
+            "Thieving": "30"
+        },
+        "Quests": [
+            "Sea Slug",
+            "Wanted!"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Elemental Workshop II": {
+        "Skills": {
+            "Magic": "20",
+            "Smithing": "30"
+        },
+        "Quests": [
+            "Elemental Workshop I"
+        ],
+        "QuestPoints": 1.0
+    },
+    "My Arm's Big Adventure": {
+        "Skills": {
+            "Farming": "29",
+            "Woodcutting": "10"
+        },
+        "Quests": [
+            "The Feud",
+            "Eadgar's Ruse",
+            "Jungle Potion"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Enlightened Journey": {
+        "Skills": {
+            "Quest points": "20",
+            "Firemaking": "20",
+            "Farming": "30",
+            "Crafting": "36"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Eagles' Peak": {
+        "Skills": {
+            "Hunter": "27"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Animal Magnetism": {
+        "Skills": {
+            "Slayer": "18",
+            "Crafting": "19",
+            "Ranged": "30",
+            "Woodcutting": "35"
+        },
+        "Quests": [
+            "The Restless Ghost",
+            "Priest in Peril",
+            "Ernest the Chicken"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Contact!": {
+        "Skills": {},
+        "Quests": [
+            "Prince Ali Rescue",
+            "Icthlarin's Little Helper"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Cold War": {
+        "Skills": {
+            "Hunter": "10",
+            "Agility": "30",
+            "Crafting": "30",
+            "Construction": "34",
+            "Thieving": "15"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Fremennik Isles": {
+        "Skills": {
+            "Construction": "20"
+        },
+        "Quests": [
+            "The Fremennik Trials"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Great Brain Robbery": {
+        "Skills": {
+            "Crafting": "16",
+            "Construction": "30",
+            "Prayer": "50"
+        },
+        "Quests": [
+            "Creature of Fenkenstrain",
+            "Cabin Fever",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 2.0
+    },
+    "What Lies Below": {
+        "Skills": {
+            "Runecraft": "35"
+        },
+        "Quests": [
+            "Rune Mysteries"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Olaf's Quest": {
+        "Skills": {
+            "Firemaking": "40",
+            "Woodcutting": "50"
+        },
+        "Quests": [
+            "The Fremennik Trials"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Another Slice of H.A.M.": {
+        "Skills": {
+            "Attack": "15",
+            "Prayer": "25"
+        },
+        "Quests": [
+            "The Giant Dwarf",
+            "Death to the Dorgeshuun",
+            "The Dig Site"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Dream Mentor": {
+        "Skills": {
+            "Combat level": "85"
+        },
+        "Quests": [
+            "Lunar Diplomacy",
+            "Eadgar's Ruse"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Grim Tales": {
+        "Skills": {
+            "Farming": "45",
+            "Herblore": "52",
+            "Thieving": "58",
+            "Agility": "59",
+            "Woodcutting": "71"
+        },
+        "Quests": [
+            "Witch's House"
+        ],
+        "QuestPoints": 1.0
+    },
+    "King's Ransom": {
+        "Skills": {
+            "Magic": "45",
+            "Defence": "65"
+        },
+        "Quests": [
+            "Holy Grail",
+            "One Small Favour",
+            "Black Knights' Fortress",
+            "Murder Mystery"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Shilo Village": {
+        "Skills": {
+            "Crafting": "20",
+            "Agility": "32"
+        },
+        "Quests": [
+            "Jungle Potion"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Biohazard": {
+        "Skills": {},
+        "Quests": [
+            "Plague City"
+        ],
+        "QuestPoints": 3.0
+    },
+    "Tower of Life": {
+        "Skills": {
+            "Construction": "10"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Rag and Bone Man II": {
+        "Skills": {
+            "Slayer": "40",
+            "Defence": "20"
+        },
+        "Quests": [
+            "The Fremennik Trials",
+            "Horror from the Deep",
+            "Zogre Flesh Eaters",
+            "Waterfall Quest",
+            "Creature of Fenkenstrain",
+            "Rag and Bone Man I",
+            "Skippy and the Mogres"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Land of the Goblins": {
+        "Skills": {
+            "Agility": "38",
+            "Fishing": "40",
+            "Thieving": "45",
+            "Herblore": "48"
+        },
+        "Quests": [
+            "Fishing Contest",
+            "Another Slice of H.A.M."
+        ],
+        "QuestPoints": 2.0
+    },
+    "Zogre Flesh Eaters": {
+        "Skills": {
+            "Smithing": "4",
+            "Herblore": "8",
+            "Ranged": "30"
+        },
+        "Quests": [
+            "Big Chompy Bird Hunting",
+            "Jungle Potion"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Monkey Madness II": {
+        "Skills": {
+            "Slayer": "69",
+            "Crafting": "70",
+            "Hunter": "60",
+            "Agility": "55",
+            "Thieving": "55",
+            "Firemaking": "60"
+        },
+        "Quests": [
+            "Watchtower",
+            "The Eyes of Glouphrie",
+            "Enlightened Journey",
+            "Troll Stronghold",
+            "Monkey Madness I"
+        ],
+        "QuestPoints": 4.0
+    },
+    "Client of Kourend": {
+        "Skills": {},
+        "Quests": [
+            "X Marks the Spot"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Queen of Thieves": {
+        "Skills": {
+            "Thieving": "20"
+        },
+        "Quests": [
+            "Client of Kourend"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Bone Voyage": {
+        "Skills": {},
+        "Quests": [
+            "The Dig Site"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Dragon Slayer II": {
+        "Skills": {
+            "Quest points": "200",
+            "Magic": "75",
+            "Smithing": "70",
+            "Mining": "68",
+            "Crafting": "62",
+            "Agility": "60",
+            "Thieving": "60",
+            "Construction": "50",
+            "Hitpoints": "50"
+        },
+        "Quests": [
+            "Dream Mentor",
+            "Animal Magnetism",
+            "Client of Kourend",
+            "Ghosts Ahoy",
+            "Bone Voyage",
+            "Legends' Quest",
+            "Barbarian Training",
+            "A Tail of Two Cats"
+        ],
+        "QuestPoints": 5.0
+    },
+    "The Depths of Despair": {
+        "Skills": {
+            "Agility": "18"
+        },
+        "Quests": [
+            "Client of Kourend"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Another Cook's Quest": {
+        "Skills": {
+            "Cooking": "10"
+        },
+        "Quests": [
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Wartface & Bentnoze": {
+        "Skills": {},
+        "Quests": [
+            "Goblin Diplomacy",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Mountain Dwarf": {
+        "Skills": {},
+        "Quests": [
+            "Fishing Contest",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Evil Dave": {
+        "Skills": {
+            "Cooking": "25"
+        },
+        "Quests": [
+            "Shadow of the Storm",
+            "Gertrude's Cat",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Pirate Pete": {
+        "Skills": {
+            "Cooking": "31"
+        },
+        "Quests": [
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Lumbridge Guide": {
+        "Skills": {
+            "Cooking": "40"
+        },
+        "Quests": [
+            "Biohazard",
+            "Murder Mystery",
+            "Big Chompy Bird Hunting",
+            "Witch's House",
+            "Nature Spirit",
+            "Demon Slayer",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Sir Amik Varze": {
+        "Skills": {
+            "Quest points": "107"
+        },
+        "Quests": [
+            "Legends' Quest",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - King Awowogei": {
+        "Skills": {
+            "Cooking": "70",
+            "Agility": "48"
+        },
+        "Quests": [
+            "Monkey Madness I",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Recipe for Disaster - Skrach Uglogwee": {
+        "Skills": {
+            "Cooking": "41",
+            "Firemaking": "20"
+        },
+        "Quests": [
+            "Big Chompy Bird Hunting",
+            "Cook's Assistant"
+        ],
+        "QuestPoints": 1.0
+    },
+    "A Taste of Hope": {
+        "Skills": {
+            "Crafting": "48",
+            "Agility": "45",
+            "Attack": "40",
+            "Herblore": "40",
+            "Slayer": "38"
+        },
+        "Quests": [
+            "Darkness of Hallowvale"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Tale of the Righteous": {
+        "Skills": {
+            "Strength": "16",
+            "Mining": "10"
+        },
+        "Quests": [
+            "Client of Kourend"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Making Friends with My Arm": {
+        "Skills": {
+            "Firemaking": "66",
+            "Mining": "72",
+            "Construction": "35",
+            "Agility": "68"
+        },
+        "Quests": [
+            "Cold War",
+            "Swan Song",
+            "My Arm's Big Adventure",
+            "Romeo & Juliet"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Recipe for Disaster - Culinaromancer": {
+        "Skills": {
+            "Quest points": "175"
+        },
+        "Quests": [
+            "Horror from the Deep",
+            "Priest in Peril",
+            "Desert Treasure I"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Song of the Elves": {
+        "Skills": {
+            "Agility": "70",
+            "Construction": "70",
+            "Farming": "70",
+            "Herblore": "70",
+            "Hunter": "70",
+            "Mining": "70",
+            "Smithing": "70",
+            "Woodcutting": "70"
+        },
+        "Quests": [
+            "Making History",
+            "Mourning's End Part II",
+            "Druidic Ritual"
+        ],
+        "QuestPoints": 4.0
+    },
+    "The Ascent of Arceuus": {
+        "Skills": {
+            "Hunter": "12"
+        },
+        "Quests": [
+            "Client of Kourend"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Forsaken Tower": {
+        "Skills": {},
+        "Quests": [
+            "Client of Kourend"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Fremennik Exiles": {
+        "Skills": {
+            "Crafting": "65",
+            "Slayer": "60",
+            "Smithing": "60",
+            "Fishing": "60",
+            "Runecraft": "55"
+        },
+        "Quests": [
+            "Lunar Diplomacy",
+            "Mountain Daughter",
+            "Heroes' Quest",
+            "The Fremennik Isles"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Defender of Varrock": {
+        "Skills": {
+            "Smithing": "55",
+            "Hunter": "52"
+        },
+        "Quests": [
+            "Garden of Tranquillity",
+            "Below Ice Mountain",
+            "Shield of Arrav",
+            "Family Crest",
+            "Demon Slayer",
+            "What Lies Below",
+            "Romeo & Juliet",
+            "Temple of Ikov"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Sins of the Father": {
+        "Skills": {
+            "Woodcutting": "62",
+            "Fletching": "60",
+            "Crafting": "56",
+            "Agility": "52",
+            "Attack": "50",
+            "Slayer": "50",
+            "Magic": "49"
+        },
+        "Quests": [
+            "Vampyre Slayer",
+            "A Taste of Hope"
+        ],
+        "QuestPoints": 2.0
+    },
+    "A Kingdom Divided": {
+        "Skills": {
+            "Agility": "54",
+            "Thieving": "52",
+            "Woodcutting": "52",
+            "Herblore": "50",
+            "Mining": "42",
+            "Crafting": "38",
+            "Magic": "35"
+        },
+        "Quests": [
+            "The Queen of Thieves",
+            "The Ascent of Arceuus",
+            "The Depths of Despair",
+            "Tale of the Righteous",
+            "The Forsaken Tower"
+        ],
+        "QuestPoints": 2.0
+    },
+    "A Porcine of Interest": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Getting Ahead": {
+        "Skills": {
+            "Crafting": "30",
+            "Construction": "26"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "A Night at the Theatre": {
+        "Skills": {},
+        "Quests": [
+            "A Taste of Hope"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Beneath Cursed Sands": {
+        "Skills": {
+            "Agility": "62",
+            "Crafting": "55",
+            "Firemaking": "55"
+        },
+        "Quests": [
+            "Contact!"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Temple of the Eye": {
+        "Skills": {
+            "Runecraft": "10"
+        },
+        "Quests": [
+            "Enter the Abyss"
+        ],
+        "QuestPoints": 1.0
+    },
+    "The Path of Glouphrie": {
+        "Skills": {
+            "Strength": "60",
+            "Slayer": "56",
+            "Thieving": "56",
+            "Ranged": "47",
+            "Agility": "45"
+        },
+        "Quests": [
+            "Tree Gnome Village",
+            "Waterfall Quest",
+            "The Eyes of Glouphrie"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Sleeping Giants": {
+        "Skills": {
+            "Smithing": "15"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Garden of Death": {
+        "Skills": {
+            "Farming": "20"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Desert Treasure II - The Fallen Empire": {
+        "Skills": {
+            "Firemaking": "75",
+            "Magic": "75",
+            "Thieving": "70",
+            "Herblore": "62",
+            "Runecraft": "60",
+            "Construction": "60"
+        },
+        "Quests": [
+            "Below Ice Mountain",
+            "Secrets of the North",
+            "Enakhra's Lament",
+            "His Faithful Servants",
+            "The Garden of Death",
+            "Temple of the Eye"
+        ],
+        "QuestPoints": 5.0
+    },
+    "Secrets of the North": {
+        "Skills": {
+            "Agility": "69",
+            "Thieving": "64",
+            "Hunter": "56"
+        },
+        "Quests": [
+            "Devious Minds",
+            "The General's Shadow",
+            "Hazeel Cult",
+            "Making Friends with My Arm"
+        ],
+        "QuestPoints": 2.0
+    },
+    "Children of the Sun": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Perilous Moons": {
+        "Skills": {
+            "Slayer": "48",
+            "Hunter": "20",
+            "Fishing": "20",
+            "Runecraft": "20",
+            "Construction": "10"
+        },
+        "Quests": [
+            "Twilight's Promise"
+        ],
+        "QuestPoints": 2.0
+    },
+    "The Ribbiting Tale of a Lily Pad Labour Dispute": {
+        "Skills": {
+            "Woodcutting": "15"
+        },
+        "Quests": [
+            "Children of the Sun"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Twilight's Promise": {
+        "Skills": {},
+        "Quests": [
+            "Children of the Sun"
+        ],
+        "QuestPoints": 1.0
+    },
+    "At First Light": {
+        "Skills": {
+            "Hunter": "46",
+            "Herblore": "30",
+            "Construction": "27"
+        },
+        "Quests": [
+            "Eagles' Peak",
+            "Children of the Sun"
+        ],
+        "QuestPoints": 1.0
+    },
+    "Romeo & Juliet": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 5.0
+    },
+    "Demon Slayer": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "Shield of Arrav": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Sheep Shearer": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Cook's Assistant": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Restless Ghost": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Ernest the Chicken": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 4.0
+    },
+    "Vampyre Slayer": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "Imp Catcher": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Prince Ali Rescue": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "Doric's Quest": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Black Knights' Fortress": {
+        "Skills": {
+            "Quest points": "12"
+        },
+        "Quests": [],
+        "QuestPoints": 3.0
+    },
+    "Witch's Potion": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Knight's Sword": {
+        "Skills": {
+            "Mining": "10"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Goblin Diplomacy": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 5.0
+    },
+    "Pirate's Treasure": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Dragon Slayer I": {
+        "Skills": {
+            "Quest points": "32"
+        },
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "Rune Mysteries": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Misthalin Mystery": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "The Corsair Curse": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 2.0
+    },
+    "X Marks the Spot": {
+        "Skills": {},
+        "Quests": [],
+        "QuestPoints": 1.0
+    },
+    "Below Ice Mountain": {
+        "Skills": {
+            "Quest points": "16"
+        },
+        "Quests": [],
+        "QuestPoints": 1.0
+    }
+}
