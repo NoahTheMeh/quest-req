@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, forwardRef, useImperativeHandle } from 'react';
 import { ForceGraph2D } from 'react-force-graph';
 import * as d3 from 'd3';
 
-const QuestGraph = ({ WikiSync, showLabels }) => {
+const QuestGraph = forwardRef(({ WikiSync, showLabels, searchQuery, onSearchResultsChange }, ref) => {
     const [graphData, setGraphData] = useState({ nodes: [], links: [] });
     const [hoverNode, setHoverNode] = useState(null);
     const [highlightNodes, setHighlightNodes] = useState(new Set());
@@ -14,6 +14,11 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
 
     const fgRef = useRef();
 
+    useImperativeHandle(ref, () => ({
+        handleNodeInteraction,
+        getNodes: () => graphData.nodes,
+    }));
+
     useEffect(() => {
         fetchQuestRequirements();
     }, [WikiSync]);
@@ -24,6 +29,16 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         }
     }, [graphData]);
 
+    useEffect(() => {
+        if (searchQuery) {
+            const results = graphData.nodes.filter(node =>
+                node.id.toLowerCase().includes(searchQuery.toLowerCase())
+            );
+            onSearchResultsChange(results);
+        } else {
+            onSearchResultsChange([]);
+        }
+    }, [searchQuery, graphData.nodes, onSearchResultsChange]);
 
     const fetchQuestRequirements = async () => {
         try {
@@ -43,16 +58,14 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         let qp = 0;
         const isWikiSyncEmpty = !WikiSync || Object.keys(WikiSync).length === 0;
         if (!isWikiSyncEmpty) {
-            console.log(WikiSync)
-            const levels = WikiSync.levels
+            const levels = WikiSync.levels;
 
-            const Melee = 1 / 4 * (levels.Defence + levels.Hitpoints + levels.Prayer * 1 / 2) + 13 / 40 * (levels.Attack + levels.Strength)
-            const Ranged = 1 / 4 * (levels.Defence + levels.Hitpoints + levels.Prayer * 1 / 2) + 13 / 40 * (levels.Ranged * 3 / 2)
-            const Magic = 1 / 4 * (levels.Defence + levels.Hitpoints + levels.Prayer * 1 / 2) + 13 / 40 * (levels.Magic * 3 / 2)
+            const Melee = 1 / 4 * (levels.Defence + levels.Hitpoints + levels.Prayer * 1 / 2) + 13 / 40 * (levels.Attack + levels.Strength);
+            const Ranged = 1 / 4 * (levels.Defence + levels.Hitpoints + levels.Prayer * 1 / 2) + 13 / 40 * (levels.Ranged * 3 / 2);
+            const Magic = 1 / 4 * (levels.Defence + levels.Hitpoints + levels.Prayer * 1 / 2) + 13 / 40 * (levels.Magic * 3 / 2);
 
-            WikiSync.levels['Combat level'] = Math.max(Melee, Ranged, Magic)
+            WikiSync.levels['Combat level'] = Math.max(Melee, Ranged, Magic);
         }
-
 
         Object.keys(data).forEach((questName) => {
             const { questStatus, missingSkills, missingQuests, inprogressQuests, completedQuests } = getQuestStatus(
@@ -233,13 +246,13 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         visitQuest(questName, depth, maxSkills);
         return prerequisitesMap;
     };
-    const renderPrerequisites = (prereqs, questName, onQuestClick) => {
 
+    const renderPrerequisites = (prereqs, questName, onQuestClick) => {
         const isWikiSyncEmpty = !WikiSync || Object.keys(WikiSync).length === 0;
 
         // Extract all skills and find the max requirement for each skill
         let maxSkills = {};
-        Object.values(prereqs).forEach(quest => {
+        Object.values(prereqs).forEach((quest) => {
             Object.entries(quest.skills).forEach(([skill, level]) => {
                 if (!maxSkills[skill] || maxSkills[skill] < level) {
                     maxSkills[skill] = level;
@@ -249,7 +262,7 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
 
         // Function to render dependent quests
         const renderDependentQuests = () => {
-            return dependentQuests.map(quest => (
+            return dependentQuests.map((quest) => (
                 <li key={quest.id} className="dependent-quest">
                     {renderQuestButton(quest.id)}
                 </li>
@@ -263,11 +276,13 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         }, {});
 
         const renderQuestButton = (questId) => {
-            const questStatusClass = WikiSync ? (
-                graphData.nodes.find(node => node.id === questId)?.questStatus === 2 ? 'completed-quest' :
-                    graphData.nodes.find(node => node.id === questId)?.questStatus === 1 ? 'in-progress-quest' :
-                        'not-started-quest'
-            ) : 'gray-quest'; // Default class for gray color
+            const questStatusClass = WikiSync
+                ? graphData.nodes.find((node) => node.id === questId)?.questStatus === 2
+                    ? 'completed-quest'
+                    : graphData.nodes.find((node) => node.id === questId)?.questStatus === 1
+                        ? 'in-progress-quest'
+                        : 'not-started-quest'
+                : 'gray-quest'; // Default class for gray color
 
             return (
                 <button
@@ -282,27 +297,14 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         };
 
         const renderQuest = (quest, isRoot = false) => {
-            const children = quest.prerequisites.map(prereqName => questMap[prereqName]);
-
-            // Add conditional class based on the quest status
-            const questStatus = graphData.nodes.find(node => node.id === quest.name).questStatus;
-            let questClass = '';
-            if (questStatus === 2) {
-                questClass = "completed-quest";
-            } else if (questStatus === 1) {
-                questClass = "in-progress-quest";
-            } else if (questStatus === 0) {
-                questClass = "not-started-quest";
-            }
+            const children = quest.prerequisites.map((prereqName) => questMap[prereqName]);
 
             return (
                 <React.Fragment key={quest.name}>
-                    {isRoot ? null : (
-                        <li key={quest.name}>{renderQuestButton(quest.name)}</li>
-                    )}
+                    {isRoot ? null : <li key={quest.name}>{renderQuestButton(quest.name)}</li>}
                     {children.length > 0 && (
                         <ul className="quest-list">
-                            {children.map(childQuest => renderQuest(childQuest))}
+                            {children.map((childQuest) => renderQuest(childQuest))}
                         </ul>
                     )}
                 </React.Fragment>
@@ -310,31 +312,32 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         };
 
         // Find root quests (those not being a prerequisite of any other quest)
-        const rootQuests = Object.values(prereqs).filter(quest =>
-            !Object.values(prereqs).some(otherQuest =>
-                otherQuest.prerequisites.includes(quest.name)
-            )
+        const rootQuests = Object.values(prereqs).filter(
+            (quest) => !Object.values(prereqs).some((otherQuest) => otherQuest.prerequisites.includes(quest.name))
         );
 
-        const dependentQuests = graphData.nodes.filter(node =>
-            node.missingQuests.includes(questName) ||
-            node.inprogressQuests.includes(questName) ||
-            node.completedQuests.includes(questName)
+        const dependentQuests = graphData.nodes.filter(
+            (node) => node.missingQuests.includes(questName) || node.inprogressQuests.includes(questName) || node.completedQuests.includes(questName)
         );
-
 
         return (
             <div className="parchment-background">
-                <h2 className="box-title">{questName}</h2>
+                <h2 className="box-title">
+                    <a
+                        href={`https://oldschool.runescape.wiki/w/${questName.replace(/ /g, '_')}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        {questName}
+                    </a>
+                </h2>
                 <div className="side-by-side-container">
                     {rootQuests.length > 0 && rootQuests[0].prerequisites && rootQuests[0].prerequisites.length > 0 && (
                         <div className="list-container">
                             <br />
                             <h3>Prerequisite Quests:</h3>
                             <br />
-                            <ul>
-                                {rootQuests.map(quest => renderQuest(quest, true))}
-                            </ul>
+                            <ul>{rootQuests.map((quest) => renderQuest(quest, true))}</ul>
                         </div>
                     )}
                     {Object.keys(maxSkills).length > 0 && (
@@ -365,15 +368,13 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
                             <br />
                             <h3>Required for Completing:</h3>
                             <br />
-                            <ul>
-                                {renderDependentQuests()}
-                            </ul>
+                            <ul>{renderDependentQuests()}</ul>
                         </div>
                     )}
                 </div>
             </div>
         );
-    }
+    };
 
     const paintNode = (node, ctx, globalScale) => {
         const allSkillsMet = node.missingSkills.length === 0 && WikiSync;
@@ -421,7 +422,6 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
             ctx.fillText(label, node.x, node.y);
         }
     };
-
 
     const paintLink = (link, ctx, globalScale) => {
         let linkColor = 'rgba(0, 0, 0, 0.01)';
@@ -508,44 +508,47 @@ const QuestGraph = ({ WikiSync, showLabels }) => {
         );
     };
 
-    return (<div className="app-container"> <div className="force-graph-container">
-        <div
-            className="graph-background"
-            onClick={(e) => {
-                if (e.target.classList.value === '') {
-                    setSelectedNodeData(null);
-                    setSelectedNode(null);
-                    setSelectedLinks(new Set());
-                }
-            }}
-        >
-            <div className="graph-container">
-                <ForceGraph2D
-                    ref={fgRef}
-                    nodeVal={11}
-                    graphData={graphData}
-                    dagMode="lr"
-                    dagLevelDistance={200}
-                    nodeLabel="id"
-                    onNodeHover={(node) => handleNodeInteraction(node, 'hover')}
-                    onNodeClick={(node) => handleNodeInteraction(node, 'click')}
-                    nodeCanvasObject={paintNode}
-                    width={window.innerWidth}
-                    height={window.innerHeight}
-                    enableNodeDrag={false}
-                    linkCanvasObjectMode={() => 'after'}
-                    linkCanvasObject={paintLink}
-                    d3AlphaDecay={1.3}
-                    d3AlphaMin={0.01}
-                    onEngineStop={() => {
-                        distributeNodesVertically(graphData.nodes, window.innerHeight);
+    return (
+        <div className="app-container">
+            <div className="force-graph-container">
+                <div
+                    className="graph-background"
+                    onClick={(e) => {
+                        if (e.target.classList.value === '') {
+                            setSelectedNodeData(null);
+                            setSelectedNode(null);
+                            setSelectedLinks(new Set());
+                        }
                     }}
-                /> </div>
+                >
+                    <div className="graph-container">
+                        <ForceGraph2D
+                            ref={fgRef}
+                            nodeVal={11}
+                            graphData={graphData}
+                            dagMode="lr"
+                            dagLevelDistance={200}
+                            nodeLabel="id"
+                            onNodeHover={(node) => handleNodeInteraction(node, 'hover')}
+                            onNodeClick={(node) => handleNodeInteraction(node, 'click')}
+                            nodeCanvasObject={paintNode}
+                            width={window.innerWidth}
+                            height={window.innerHeight}
+                            enableNodeDrag={false}
+                            linkCanvasObjectMode={() => 'after'}
+                            linkCanvasObject={paintLink}
+                            d3AlphaDecay={1.3}
+                            d3AlphaMin={0.01}
+                            onEngineStop={() => {
+                                distributeNodesVertically(graphData.nodes, window.innerHeight);
+                            }}
+                        />
+                    </div>
+                </div>
+            </div>
+            {selectedNodeData && <div className="banner-container">{renderNodeDetails(selectedNodeData)}</div>}
         </div>
-    </div>
-        {selectedNodeData && (<div className="banner-container">{renderNodeDetails(selectedNodeData)}</div>
-        )} </div>
     );
-};
+});
 
 export default QuestGraph;

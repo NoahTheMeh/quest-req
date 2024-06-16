@@ -193,13 +193,13 @@ ul {
 
 .node-info-container {
   position: absolute;
-  top: 10px;
+  top: 30px;
   right: 10px;
   max-height: 90%;
   overflow-y: auto;
   border: 1px solid #ccc;
   padding: 10px;
-  z-index: 100;
+  z-index: 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: 'Georgia', serif;
   background: #D8CCB4;
@@ -427,4 +427,50 @@ ul {
 .username-input-container input {
   padding: 5px;
   font-size: 16px;
+}
+
+.search-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.search-results {
+  position: absolute;
+  top: 38px;
+  /* Adjust to be below the search input */
+  right: 10px;
+  width: 98%;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1001;
+}
+
+.search-result-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.search-result-item:hover {
+  background-color: #f0f0f0;
+}
+
+.search-result-item.selected {
+  background-color: #b3d4fc;
+  /* Highlight color */
+}
+
+.top-right-controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40%;
+  z-index: 10;
 }
